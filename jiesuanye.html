@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>结算页面</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/jiesuanye.css">
+</head>
+<body>
+	<div class="heads clearF">
+		<div class="heads_top">
+			<div class="heads_top_box">
+				<div class="heads_left fl">
+					<a href="#">收藏慕课网</a>
+				</div>
+				<div class="heads_right fr">
+					欢迎来到慕课网！
+					<a href="denglu.html">[登录]</a>
+					<a href="zhuce.html">[免费注册]</a>
+				</div>
+			</div>
+		</div>
+		<div class="heads_main">
+			<div class="heads_main_box">
+				<div class="heads_main_logo fl">
+					<a href="#"><img src="images/icon_logo.png" alt="慕课网"></a>
+				</div>
+				<div class="heads_img fr">
+					<img src="images/icon_53.jpg" alt="进度条">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="address">
+			<h1 class="address_h1">收货信息</h1>
+			<form >
+				<div class="address_box1">
+					<label for="">选择地区:</label>
+					<select>
+						<option value="地址">广州市 天河区 科学大道</option>
+						<option value="地址">广州市 白云区 科白云大道</option>
+						<option value="地址">广州市 荔湾区 山村</option>
+						<option value="地址">广州市 海珠区 广州大道南</option>
+					</select>
+				</div>
+				<div class="address_box2">
+					<label for="">详细地址:</label>
+					<input type="text" value="最多输入26个汉字">
+				</div>
+				<div class="address_box3">
+					<label for="">收货人:</label>
+					<input type="text" value="最多输入10个汉字">
+				</div>
+				<span class="address_box4">
+					<label for="">手   机:</label>
+					<input type="text" value="如13413320499">
+				</span>
+				或固定电话
+				<input type="text" value="区号">-<input type="text" value="电话号码">-<input type="text" value="分机号(可选)">
+				<div class="btn">
+					<input type="submit" value="确认收货地址">
+				</div>
+			</form>
+		</div>
+		<div class="payment">
+			<h1 class="address_h1">支付方式</h1>
+			<form>
+				<input type="radio" name="sex" value="male" checked>微信支付 
+				<span>用微信扫一扫就能支付！</span>
+
+				<br>
+				<input type="radio" name="sex" value="female">货到付款  送货上门后再付款，使用现金或银行卡。
+			</form> 
+		</div>
+		<div class="invoice">
+			<h1 class="address_h1">发表信息</h1>
+			<form action="">
+				<input class="invoice_checkbox" type="checkbox"> 需要发票<br>
+				<label for="">发票类型:</label>
+				<select>
+					<option value="商业零售发票">商业零售发票</option>
+					<option value="个人发票">个人发票</option>
+				</select>
+				<br>
+				<label>发票抬头:</label>
+				<select>
+					<option value="个人">个人</option>
+					<option value="企业">企业</option>
+				</select>
+				<input type="text" value="阿斯顿"><br>
+				<span>
+					<input class="invoice_btn" type="submit" value="保存">
+					<input type="submit" value="取消">
+				</span>
+			</form>
+
+		</div>
+		<div class="listing clearF">
+			<h1 class="address_h1">送货清单</h1>
+			<div class="listing_box clearF">
+				<h4 class="fl ">商品名称</h4>
+				<ul class="list_ul fl">
+					<li>单价</li>
+					<li>返现</li>
+					<li>数量</li>
+					<li>小计</li>
+				</ul>
+				<img class="fl" src="images/icon_56.jpg" alt="冰箱">
+				<div class="fl">
+					<p >Hisense 海信 BCD-202D 202升 三门冰箱(银色)</p>
+					<span>[赠品] 保鲜盒 抽真空保鲜盒-海信冰洗赠品</span>
+				</div>
+				<ul class="list_ul1 fl">
+					<li>￥1459.00</li>
+					<li>￥0.00</li>
+					<li>1</li>
+					<li>￥1459.00</li>
+				</ul>
+			</div>
+		</div>
+		<div class="pay">
+			<h1 class="address_h1">订单结算</h1>
+			<div class="pay_box">
+				<span class="pay_text">总计：</span>
+				<span class="pay_num">￥1499.00</span><br>
+				<input type="submit" value="提交订单">
+			</div>
+		</div>
+	</div>
+	<div class="foots">
+		<div>
+			<a href="#">慕课网简介</a>
+			<a href="#">慕课公告</a>
+			<a href="#">招纳贤仕</a>
+			<a href="#">联系我们</a>
+			<a class="foot_border"href="#">客服热线：400-123-1234</a>
+		</div>
+		<div>
+			<span>Copyright© 2006-2014 慕课网版权</span>
+			<span>京ICP备090374号</span>
+			<span>京ICP备090374号</span>
+			<span>京ICP备090374号</span>
+		</div>
+		<div>
+			<img src="images/icon_10.jpg" alt="logo">
+			<img src="images/icon_10.jpg" alt="logo">
+			<img src="images/icon_10.jpg" alt="logo">
+			<img src="images/icon_10.jpg" alt="logo">
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.main{
+	width: 400px;
+	margin: 30px auto 90px auto;
+	border: 1px solid #ccc;
+}
+.main form{
+	width: 400px;
+	margin: 28px 0 10px 64px;
+
+}
+.mainForm_text input{
+	height: 22px;
+	width: 260px;
+	background: url(../images/icon_58.png) no-repeat right center;
+	border: 1px solid #ccc;
+	margin-bottom:10px;
+	padding-left: 4px;
+}
+.main label{
+	color: #999;
+}
+.mainForm_text .mainForm_password{
+	background: url(../images/icon_59.png) no-repeat right center;
+}
+.main form span input{
+	margin-left: 10px;
+}
+
+.form_btn input{
+	width: 266px;
+	height: 30px;
+	border: none;
+	background: #dfdfdf;
+	font-size: 16px;
+	margin:10px 0;
+	border-radius: 2px;
+}
+.main span a{
+	border: none;
+}
+.main a{
+	display: inline-block;
+	border-right: 1px solid #ccc;
+	padding:0 4px;
+	margin-top: 10px;
+}
+.form_btnright input{
+	width: 100px;
+	height: 26px;
+	color: #fff;
+	background: #7cbe56;
+	border: none;
+	font-size: 14px;
+	margin: 10px 0 0 0px;
+	border-radius: 2px;
+}

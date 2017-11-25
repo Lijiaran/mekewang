@@ -1,0 +1,256 @@
+/* 产品图片区部分*/
+.main{
+	width: 100%;
+	background: #f0f0f0;
+
+}
+.main_a{
+	width: 1300px;
+	margin: 0 auto;
+	padding:20px 0 0 10px;
+}
+.main_box{
+	width: 1300px;
+	margin: 10px auto;
+	background: #fff;
+	padding-top: 16px;
+}
+.main_box_img{
+	width: 400px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.main_picture{
+	margin-top: 10px;
+}
+.main_picture img{
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+/* 购买导航部分 */
+.main_box_right{
+
+	font-family: "微软雅黑";
+	margin-left: 10px;
+}
+.main_box_right h1{
+	font-size: 16px;
+}
+.main_box_right dt,.main_box_right dd{
+	float: left;
+}
+.main_box_right dl{
+	margin-top: 20px;
+	color: #666;
+}
+.main_box_right dt{
+	margin-right: 30px;
+}
+.main_red{
+	color: #d70000;
+}
+.main_dd_picture{
+	background: url(../images/icon_37.png) no-repeat left center;
+	padding-left: 62px;
+}
+.main_btn input{
+	width: 80px;
+	height: 30px;
+	margin-right: 10px;
+
+}
+.main_btn1 input{
+	width: 120px;
+	height: 30px;
+	margin-right: 10px;
+
+}
+.main_text {
+	width: 26px;
+	height: 24px;
+	margin-left: -4px;
+	margin-right: -4px;
+	padding-left: 16px;
+}
+.main_text_btn{
+	height: 26px;
+	width: 12px;
+}
+.main .shopText1{
+	background:url(../images/btn_shopping.png) no-repeat 16px center #f98700;
+	color: #fff;
+	width: 90px;
+	height:40px;
+	line-height: 40px;
+	padding-left: 50px;
+	padding-right: 20px;
+	margin: 40px 0 0 120px;
+	
+}
+.main .shopText1 a{
+	color: #fff;
+	font-family: '微软雅黑';
+	font-size: 18px;
+}
+
+
+
+/* 产品介绍 */
+.main_foots{
+	width: 1300px;
+	margin: 0 auto;
+	font-family: '微软雅黑';
+}
+.main_footP{
+	width: 222px;
+	text-align: center;
+	border: 1px solid #ccc;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.main_foot_box{
+	background: #fff;
+	width: 182px;
+	text-align: center;
+	padding: 20px 20px 0 20px;
+	border: 1px solid #ccc;
+
+	border-bottom: none;
+}
+.main_foot_box p{
+	font-size: 12px;
+	color: #999;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main_foot_box span{
+	color: #de0000;
+	font-size: 12px;
+
+}
+.main_introduce{
+	width: 1036px;
+	background: #fff;
+	margin-left: 40px;
+}
+.span_left{
+	width:516px;
+	background: url(../images/icon_45.png) no-repeat 194px center #0479ca;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	border: 1px solid #ccc;
+}
+.span_right{
+	width:516px;
+	background: url(../images/icon_46.png) no-repeat  170px 18px #efefef;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	font-size: 18px;
+	border: 1px solid #ccc;
+}
+.main_introduce_img{
+	margin: 40px 220px;
+}
+.main_introduce_img2{
+	margin: 40px 120px;
+}
+.main_introduce h3{
+	color: #2457a6;
+	margin: 30px 10px 10px 10px ;
+	font-size: 18px;
+	padding-bottom: 6px;
+	border-bottom: 2px solid #2457a6;
+}
+.main_introduce p{
+	margin-left: 10px;
+	color: #666;
+	line-height: 24px;
+}
+
+
+
+/* 商品评价 */
+.main_appraise{
+	width: 1016px;
+	background: #fff;
+	margin-left: 40px;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.main_appraise h3{
+	margin: 10px 0 10px 0 ;
+	color: #666;
+	font-size: 18px;
+}
+.span_list ul{
+	 width:526px; 
+	background: #bdbdbd;
+	height: 20px;
+	line-height: 20px;
+	margin:14px 0 12px 8px;
+	
+}
+.span_list ul li{
+	float: left;
+	margin:0 30px;
+	color: #fff;
+}
+.span_list p{
+	color: #66667d;
+	margin-left: 10px;
+}
+.main_nav{
+	clear: both;
+	margin-bottom: 20px;
+
+}
+.main_nav ul li{
+	float: left;
+	margin:0 20px;
+}
+.main_nav span{
+	background: url(../images/icon_50.png) no-repeat right center;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+.main_nav_text{
+	margin-left: 18px;
+	margin-top: 4px;
+	margin-bottom: 60px;
+}
+.main_nav_text span{
+	background: url(../images/btn_01.png) red center;
+	width:66px;
+	height: 12px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+.main_nav_text p{
+	margin:8px 0;
+}
+.shijian{
+	margin-right: 10px;
+}
+.pagination{
+	float: right;
+	margin-right: 12px;
+}
+.pagination ul li{
+	float: left;
+	margin: 10px;
+	
+}
+.pagination ul li a{
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}
+}

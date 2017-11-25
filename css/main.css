@@ -1,0 +1,193 @@
+/* 下拉列表 */
+#nav_ul{
+	height: 350px;
+	background: #4593fd;
+}
+
+.nav_down_menu li{
+	background: #4593fd;
+	height: 57px;
+	width: 12em;
+	background: url(../images/btn_right.jpg) no-repeat 12em center #4593fd;
+	padding-right: 1.5em;
+	border-bottom: 1px solid #ccc;
+	padding-left: 10px
+}
+.nav_down_menu li:hover {
+	box-shadow:0 0 1px #ccc; 
+	background: #1369c0;
+}
+.nav_down_menu li a{
+	color: #fff;
+	padding: 6px 5px 0 5px ;
+	font-weight: bold;
+	display: inline-block;
+}
+.nav_down_menu .nva_menu_box a{
+	font-size: 0.85em;
+	color: #c2d9f8;
+}
+#nav_ul li a:hover{
+	text-decoration: underline;
+}
+/* 弹出栏部分 */
+.submenu{
+	position: absolute;
+	z-index: 20;
+	left: 198px;
+	top:36px;
+	border: 1px solid #ccc;
+	width: 64%;
+	background: #fff;
+	display: none; 
+		
+}
+.on .submenu{
+	display: block;
+}
+.submenu_box{
+	border-bottom: 1px solid #ccc;
+	margin:10px 0 0 20px;
+	width: 90%;
+}
+.submenu dt{
+	color: #4b88da;
+	font-weight: bold;
+	float: left;
+}
+.submenu dd{
+	float: left;
+	width: 88%;
+}
+.submenu dd a{
+	color: #666;
+	font-size: 0.85em;
+	margin-left:12px;
+	padding: 2px 2px 8px 2px ;
+
+}
+.submenu dd a:hover{
+	color: #4b88da;
+}
+
+
+
+/* 轮播图 */
+
+#container{
+	width: 824px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+#list{
+	width: 5768px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;
+}
+#list img{
+	float: left;
+}
+#buttons{
+	width: 235px;
+	height: 10px;
+	position: absolute;
+	bottom:20px;
+	left: 250px;
+	z-index: 2;
+	
+}
+#buttons span{
+	width: 40px;
+	height: 8px;
+	float:left;
+	margin-right: 5px;
+	border: 1px solid #fff;
+             cursor: pointer;
+}
+#buttons .on{
+	background: orange;
+}
+.arrow{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 2;
+	top:138px;
+	font-size: 36px;
+	font-weight: bold;
+	display: none;
+}
+.arrow:hover{
+	background-color: rgba(0,0,0,0.7);
+}
+#container:hover .arrow{
+	display: block;
+}
+#prev{
+	left: 0px;
+}
+#next{
+	right:0px; 
+}
+
+
+
+/* 产品展示区 */
+.main{
+	width: 76%;
+	margin: 0 auto;
+	
+}
+.main h1{
+	font-size: 1.6em;
+	font-weight: normal;
+	background: url(../images/icon_h1.jpg) no-repeat left center;
+	padding-left:2em;
+	margin: 0.5em 0;
+}
+.main_box{
+	float: left;
+	padding: 28px 18px;
+	border: 1px solid #ccc;
+	height: 220px;
+}
+.main_box p{
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-top: 10px;
+	margin-left: 1em;
+	margin-bottom: 4px;
+}
+.main_span{
+	color: #ff7f26;
+	padding-left: 3em;
+}
+.main_box_bottom{
+
+	float: left;
+	padding: 28px 0 10px 9px;
+	border: 1px solid #ccc;
+	border-bottom: 2px solid #ff7300;
+}
+.main_box_bottom p{
+	width: 117px;
+	color: #ff7300;
+	margin-bottom: 8px;
+}
+.main_box_bottom span{
+	font-weight: bold;
+	color: #737373;
+}
+.hidden{
+	display: none;
+}
+
+

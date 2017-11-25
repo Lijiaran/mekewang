@@ -1,0 +1,172 @@
+.heads_img img{
+	margin-bottom: -16px;
+}
+
+.address{
+	width: 1200px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+.address_h1{
+	font-size:18px;
+	padding:10px 5px;
+
+	background: #f3f3f3;
+}
+.address label{
+	background: url(../images/icon_54.jpg) no-repeat left center;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+.address_box1,.address_box2,.address_box3,.address_box4{
+	margin:20px 0;
+}
+.address select{
+	height: 22px;
+}
+.address input{
+	height: 22px;
+	padding-left: 8px;
+}
+.address_box2 input{
+	width: 400px;
+	height: 22px;
+}
+.address_box3 input{
+	margin-left: 14px;
+}
+.address_box4 input{
+	margin-left: 24px;
+}
+.btn input{
+	width: 100px;
+	height: 34px;
+	background: #4290fb;
+	border: none;
+	margin: 20px 0 10px 20px ;
+	color: #fff;
+}
+
+
+/* 支付方式 */
+.payment{
+	width: 1200px;
+	border: 1px solid #ccc;
+	margin: 20px auto;
+	font-family: "微软雅黑";
+}
+.payment input{
+	margin: 10px 8px 10px 10px;
+	font-size: 14px;
+}
+.payment span{
+	background: url(../images/icon_55.png) no-repeat left center;
+	padding-left: 26px;
+	margin-left: 10px;
+}
+
+
+/* 发票 */
+.invoice{
+	width: 1200px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	font-family: "微软雅黑";
+}
+.invoice form{
+	padding: 10px;
+}
+.invoice input{
+	margin: 10px 0 10px 4px;
+	height: 22px;
+}
+.invoice select{
+	height: 22px;
+}
+.invoice span input{
+	height: 26px; 
+	width: 92px;
+	
+}
+.invoice_btn{
+	background: #4493fd;
+	border: none;
+}
+.invoice .invoice_checkbox{
+	height: auto;
+}
+.invoice label{
+	background: url(../images/icon_54.jpg) no-repeat left center;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+/* 送货清单 */
+.listing{
+	width: 1200px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	font-family: "微软雅黑";
+}
+.listing h4{
+	margin-left: 10px;
+}
+.listing_box{
+	border-bottom: 1px solid #ccc;
+	height: 20px;
+	line-height: 20px;
+}
+.list_ul{
+	margin-left: 300px;
+	float: left;
+}
+.list_ul li{
+	float: left;
+	margin:0 90px;
+}
+.listing_box p{
+	color: #666;
+	margin: 10px 0;
+}
+.list_ul1{
+	margin-top: 10px;
+}
+.list_ul1 li{
+	float: left;
+	margin:0 78px;
+}
+.listing input{
+	border: none;
+}
+
+/* 订单结算 */
+.pay{
+	width: 1200px;
+	height: 200px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	font-family: "微软雅黑";
+
+}
+.pay_box{
+	float: right;
+	margin-top: 70px;
+	margin-right: 40px;
+}
+.pay_text{
+	color: #929292;
+}
+.pay_num{
+	color: #ee0000;
+	font-size: 28px;
+}
+.pay input{
+	width: 160px;
+	height: 34px;
+	border: none;
+	background: #ee0000;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 10px;
+}
